@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://i.redd.it/kz0r48rd8x241.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.nombre{
+    font-size: 20px;
+    margin-left: 1%;
+}
+.cuadro{
+    border: 3px solid  black;
+    border-radius: 10px;
+    margin-left: 1%;
+    color: gray;
+    margin-right: 1%;
+    background-color: white;
+    padding: 5px;
+}
+.cuadro2
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 1%;
+    padding-bottom: 350px;
+    color: gray;
+    margin-right: 1%;
+    background-color: white;
+}
+.enviar{
+    font-size: 30px;
+    margin-left: 1%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-right: 1%;
+}
+.redes{
+    background-color: transparent;
+    width: 100px;
+    margin-left: 4.5%;
+    
+}
+.redest{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10%;
+}
+.cuadrog{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 65%;
+    margin-right: 5%;
+    margin-top: -160px;
+    background-color: #ecebeb;
+}
