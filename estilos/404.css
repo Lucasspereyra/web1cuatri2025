@@ -1,5 +1,5 @@
 
-main{
+#pag{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ main{
     font-size: 2vw;
     box-shadow: 0 0 1vw black;
 }
-a{
+.vi{
     font-family: sans-serif;
     margin: auto;
     padding: .5vw;
