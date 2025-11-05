@@ -1,7 +1,7 @@
 .sinopsis{
     color: black;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 1.5vw;
+    margin-top: 1%;
     margin-right: 40%;
     margin-left: 40%;
     font-family: 'NHL San Jose';
@@ -15,7 +15,7 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
-    font-size: 27px;
+    font-size: 1.5vw;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px solid black;
