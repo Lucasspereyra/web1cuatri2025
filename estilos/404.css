@@ -1,0 +1,41 @@
+
+#pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+}
+#caja{
+    background-image: url(https://www.ruta0.com/pix/una-ruta.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+    padding: 3vw;
+    text-align: center;
+    box-shadow: 0 0 1vw black;
+}
+.cartel{
+    display: block;
+    margin: auto;
+    width: 10vw;
+    height: auto;
+}
+#caja p{
+    font-family: sans-serif;
+    margin: 1vw 0;
+    color: white;
+    font-size: 2vw;
+}
+.vi{
+    font-family: sans-serif;
+    margin: auto;
+    padding: .5vw;
+    color: black;
+    font-size: 1vw;
+    background-color: #ecebeb;
+    text-decoration: none;
+    border-radius: 1vw;
+}

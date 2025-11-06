@@ -1,0 +1,12 @@
+section{
+    padding: 2vw;
+    text-align: center;
+}
+section article{
+   text-align: center;
+   gap: 1vw;
+
+}
+.short{
+    width:15vw;
+}

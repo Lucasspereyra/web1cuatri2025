@@ -1,7 +1,7 @@
 .produccion{
     color: black;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 1vw;
+    margin-top: 2vw;
     margin-right: 40%;
     margin-left: 40%;
     font-family: 'NHL San Jose';
@@ -15,7 +15,7 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
-    font-size: 27px;
+    font-size: 1vw;;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px solid black;
@@ -24,22 +24,23 @@
     background-color: #64A8C5;
 }
 .prod{
-    height: 200px;
-    margin-left: 200px;
+    height: 8vw;
     margin-top: 2%;
     margin-bottom: 2%;
     border: 3px solid black;
     border-radius: 10px;
 }
-.productoras{
-    margin-left: 300px;
+#productoras{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
 }
 .produtext2{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
     text-align: left;
-    font-size: 27px;
+    font-size: 1vw;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px solid black;

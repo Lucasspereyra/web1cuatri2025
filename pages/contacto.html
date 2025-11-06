@@ -3,40 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tp1</title>
+    <title>TP2</title>
     <link rel="stylesheet" href="../estilos/general.css">
     <link rel="stylesheet" href="../estilos/contacto.css">
+    <link rel="icon" href="../img/favicon.png">
 </head>
 <body>
 <header>
-    <div 
-    class="banner">
-    <h1><a href="../index.html" class="ford">Ford</a>
-    <a href="../index.html" class="v">V</a>
-    <a href="../index.html" class="ferrari">Ferrari</a></h1>
-    </div>
+    <article id="banner">
+        <h1>
+        <a href="../index.html" class="ford">Ford</a>
+        <a href="../index.html" class="v">V</a>
+        <a href="../index.html" class="ferrari">Ferrari</a>
+        </h1>
+    </article>
 <nav>
-    <a href="../pages/sinopsis.html"class="sub">Sinopsis</a>
-    <a href="../pages/reparto.html"class="sub">Reparto</a>
-    <a href="../pages/produccion.html"class="sub">Produccion</a>
-    <a href="../pages/datos.html"class="sub">Datos</a>
-    <a href="../pages/contacto.html"class="subactivo">Contacto</a>
+    <section id="sub">
+        <a href="../pages/sinopsis.html">Sinopsis</a>
+        <a href="../pages/reparto.html">Reparto</a>
+        <a href="../pages/produccion.html">Produccion</a>
+        <a href="../pages/datos.html">Datos</a>
+        <a href="../pages/contacto.html"class="subactivo">Contacto</a>
+    </section>
 </nav>
 </header>
 <main>
-<h5 class="redest">Seguinos en nuestras redes:</h5>
-<a href="https://www.instagram.com/fordvferrari/?hl=es" class="redes"><img src="https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-icono-de-instagram-colorido.png" alt="Instagram" class="redes"></a>
-<a href="https://x.com/FordvFerrari" class="redes"> <img src="https://cdn.iconscout.com/icon/free/png-256/free-twitterx-icon-svg-download-png-7740647.png" alt="x" class="redes"></a>
-<div class="cuadrog">
-<p class="nombre">Nombre y Apellido</p>
-<p class="cuadro">Ingrese nombre...</p>
-<p class="nombre">Comentarios</p>
-<p class="cuadro2">Ingrese su comentario...</p>
-<p class="enviar">Enviar</p>
-</div>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<ul>
+  <li>
+    <a href="https://www.facebook.com/FordvFerrari/?locale=es_LA" target="_blank">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+  <li>
+    <a href="https://x.com/FordvFerrari" target="_blank"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=zyYgDtY2AMY" target="_blank"><i class="fab fa-youtube icon"></i></a>
+  </li>
+</ul>
+    <form action="../pages/gracias.html" method="post" class="formulario">
+        <article id="entrada">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Ingrese nombre..." required>
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" placeholder="Ingrese apellido..." required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="correo@ejemplo.com" required>
+            </div> 
+        </article>
+        <article id="mensaje">
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <input type="text" placeholder="Deje su comentario..." required>
+            </div>
+        </article>
+        <article id="accion">
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </article>
+    </form>
 </main>
 <footer>
-    <p class="footer">Lucas Pereyra - Parcial 1 - Programacion Web</p>
+    <p class="footer">Lucas Pereyra - Parcial 2 - Programacion Web</p>
 </footer>
 </body>
 </html>

@@ -1,36 +1,42 @@
 .poster{
-    width: 400px;
-    margin-left: 200px;
-    margin-top: -100px;
+    width: 15vw;
     border: 3px solid black;
     border-radius: 10px;
-    padding: 15px 15px;
+    padding: 1.3%;
     background-color: #d04130;
+    margin-top: 8%;
 }
 .ti{
-    margin-left: 870px;
-    margin-top: -500px; 
-    margin-right: 13%;
-    text-align: left;
-    font-size: 27px;
+    font-size: 1vw;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px solid black;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 1% 2%;
     background-color: #64A8C5;
+    transition: 2s;
+    margin-right: 10%;
 }
 .titulo{
-
     color: black;
-    font-size: 30px;
-    margin-left: 870px;
-    margin-top: 100px;
-    margin-right: 13%;
+    font-size: 1.1vw;
     font-family: 'NHL San Jose';
     border: 3px solid black;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 1% 2%;
     background-color: #64A8C5;
+    transition: 2s;
     text-align: center;
+    margin-right: 10%;
+}
+.titulo:hover, .ti:hover{
+    transition: 2s;
+    background-color: #d04130 ;
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    padding: 2%;
+    margin-left: 5%;
 }
