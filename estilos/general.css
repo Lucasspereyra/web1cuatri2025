@@ -1,4 +1,7 @@
     @import url(https://db.onlinewebfonts.com/c/4fab58d20f27451d926cab0757c4cd6a?family=NHL+San+Jose);
+*{
+   box-sizing: border-box;
+} 
 body {
     background-color: #ecebeb;
     margin: 0;
@@ -82,4 +85,5 @@ footer{
     padding: .25vw;
     font-size: .7vw;
     margin-top: 12vw;
+
 }
