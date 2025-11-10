@@ -5,10 +5,8 @@
 body {
     background-color: #ecebeb;
     margin: 0;
-    width: 100vw;
 }
 #banner{
-    width: 100vw;
     height: 4vw;
     background-image: url(https://cdnb.artstation.com/p/assets/images/images/041/235/741/large/chinmay-thorat-render-cam-1-final-ps-depth-newcr.jpg?1631129931);
     background-size:cover;
@@ -87,3 +85,4 @@ footer{
     margin-top: 12vw;
 
 }
+
