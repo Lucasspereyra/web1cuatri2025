@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vw;
+    min-height: 70vh;
+    padding: 2rem 1rem;
 }
 #caja{
     background-image: url(https://www.ruta0.com/pix/una-ruta.jpg);
@@ -11,31 +12,31 @@
     background-position: bottom;
     background-size: 100%;
 
-    border: 0.3vw solid black;
-    border-radius: 1vw;
-    padding: 3vw;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 2rem 1.25rem;
     text-align: center;
-    box-shadow: 0 0 1vw black;
+    box-shadow: 0 0 18px black;
 }
 .cartel{
     display: block;
     margin: auto;
-    width: 10vw;
+    width: min(180px, 60vw);
     height: auto;
 }
 #caja p{
     font-family: sans-serif;
     margin: 1vw 0;
     color: white;
-    font-size: 2vw;
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
 .vi{
     font-family: sans-serif;
     margin: auto;
-    padding: .5vw;
+    padding: .6rem .9rem;
     color: black;
-    font-size: 1vw;
+    font-size: 1rem;
     background-color: #ecebeb;
     text-decoration: none;
-    border-radius: 1vw;
+    border-radius: 12px;
 }

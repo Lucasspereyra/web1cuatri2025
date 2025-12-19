@@ -1,86 +1,26 @@
 body{
-    background-image: url(https://i.redd.it/kz0r48rd8x241.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 110vw;
-}
-.formulario{
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-top: 5vw;
-    padding: 1vw;
-    background-color: rgb(212, 212, 212);
-    border: 3px solid black;
-    border-radius: 20px;
-}
-#mensaje label{
-    font-size: 1vw;
-    font-weight: 600;
-    color: black;
-}
-#mensaje input{
-    color: black;
-    width: 99%;
-    padding: .2vw;
-    padding-bottom: 5vw;
-    font-size: 1vw;
-    border: 3px solid black;
-    border-radius: 1vw;
-    outline: none;
-    background: white;
-    margin-bottom: 2vw;
-    margin-top: .5%;
-}
-#entrada label{
-    font-size: 1vw;
-    font-weight: 600;
-    color: black;
-}
-#entrada input{
-    margin-top: .5%;
-    margin-bottom: .5%;
-    color: black;
-    width: 99%;
-    padding: .2vw;
-    padding-bottom: .3vw;
-    font-size: 1vw;
-    border: 3px solid black;
-    border-radius: 1vw;
-    outline: none;
-    background: white;
-}
-#accion input{
-    width: 100%;
-    padding: 1vw;
-    font-size: 1.1vw;
-    font-weight: 600;
-    color: white;
-    background: black;
-    border: none;
-    border-radius: 1vw;
-}
-#accion input:hover {
-    transform: scale(1.01);
-}
-ul {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  transform: translate(-50%, -50%);
+  background-image: url(https://i.redd.it/kz0r48rd8x241.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
 }
 
-ul li {
+ul{
   list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-ul li a {
-  width: 2vw;
-  height: 2vw;
+ul li a{
+  width: 44px;
+  height: 44px;
   background-color: #fff;
   text-align: center;
-  line-height: 2vw;
-  font-size: .6vw;
-  margin: 0 10px;
+  line-height: 44px;
+  font-size: 1rem;
   display: block;
   border-radius: 50%;
   position: relative;
@@ -89,19 +29,19 @@ ul li a {
   z-index: 1;
 }
 
-ul li a .icon {
+ul li a .icon{
   position: relative;
   color: #262626;
   transition: .5s;
   z-index: 3;
 }
 
-ul li a:hover .icon {
+ul li a:hover .icon{
   color: #fff;
   transform: rotateY(360deg);
 }
 
-ul li a:before {
+ul li a:before{
   content: "";
   position: absolute;
   top: 100%;
@@ -113,18 +53,62 @@ ul li a:before {
   z-index: 2;
 }
 
-ul li a:hover:before {
-  top: 0;
+ul li a:hover:before{ top: 0; }
+
+ul li:nth-child(1) a:before{ background: #3b5999; }
+ul li:nth-child(2) a:before{ background: #55acee; }
+ul li:nth-child(3) a:before{ background: #dd4b39; }
+
+.formulario{
+  max-width: 720px;
+  margin: 1.5rem auto 2rem;
+  padding: 1rem;
+  background-color: rgba(212, 212, 212, .95);
+  border: 3px solid black;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
-ul li:nth-child(1) a:before{
-  background: #3b5999;
+#entrada label,#mensaje label{
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
 }
 
-ul li:nth-child(2) a:before{
-  background: #55acee;
+#entrada input,#mensaje textarea{
+  margin-top: .35rem;
+  margin-bottom: .75rem;
+  color: black;
+  width: 100%;
+  padding: .55rem;
+  font-size: 1rem;
+  border: 3px solid black;
+  border-radius: 14px;
+  outline: none;
+  background: white;
 }
 
-ul li:nth-child(4) a:before {
-  background: #dd4b39;
+#mensaje textarea{
+  min-height: 140px;
+  resize: vertical;
+}
+
+#accion input{
+  width: 100%;
+  padding: .9rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 14px;
+}
+
+#accion input:hover{ 
+  transform: scale(1.01); 
+  color: #dd4b39;
+}
+
+@media (max-width: 600px){
+  .formulario{ margin: 1rem 1rem 2rem; }
 }

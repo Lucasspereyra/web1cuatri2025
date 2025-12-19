@@ -1,88 +1,137 @@
-    @import url(https://db.onlinewebfonts.com/c/4fab58d20f27451d926cab0757c4cd6a?family=NHL+San+Jose);
-*{
-   box-sizing: border-box;
-} 
-body {
-    background-color: #ecebeb;
-    margin: 0;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+*, *::before, *::after{
+  box-sizing: border-box;
 }
+html{
+  font-size: 100%;
+}
+
+body{
+  background-color: #ecebeb;
+  margin: 0;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+img, video, iframe{
+  max-width: 100%;
+}
+
 #banner{
-    height: 4vw;
-    background-image: url(https://cdnb.artstation.com/p/assets/images/images/041/235/741/large/chinmay-thorat-render-cam-1-final-ps-depth-newcr.jpg?1631129931);
-    background-size:cover;
-    background-position: center 61%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: clamp(56px, 8vw, 90px);
+  padding: .5rem 1rem;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/041/235/741/large/chinmay-thorat-render-cam-1-final-ps-depth-newcr.jpg?1631129931);
+  background-size: cover;
+  background-position: center 61%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 #banner h1{
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
+  line-height: 1;
 }
+
+.ford,.ferrari{
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+}
+
+
+.ford,.ferrari,.v{
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: transparent;
+  text-shadow: 5px 5px 6px #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .ford{
-    color: #64A8C5;
-    font-size: 3vw;
-    font-family: 'NHL San Jose';
-    background-color: transparent;
-    text-shadow: 5px 5px 6px #000000;
-    margin-right: 6px;
-    text-decoration: none;
+  color: #64A8C5;
+  margin-right: 0.08em;
 }
+
 .v{
-    color: #302A22;
-    font-size: 1.5vw;
-    font-family: 'NHL San Jose';
-    background-color: transparent;
-    text-shadow: 5px 5px 6px #000000;
-    margin: 0 4px;
-    text-decoration: none;
+  color: #302A22;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  margin: 0;
 }
+
 .ferrari{
-    color: #d04130;
-    font-size: 3vw;
-    font-family: 'NHL San Jose';
-    background-color: transparent;
-    text-shadow: 5px 5px 6px #000000;
-    margin-left: 6px;
-    text-decoration: none;
+  color: #d04130;
+  margin-left: 0.08em;
 }
+
 nav{
-    background-color: #12100D;
-    padding: .1vw 0;
-    margin: 0;
+  background-color: #12100D;
+  padding: .35rem 0;
+  margin: 0;
 }
+
 #sub{
-    display: flex;
-    gap: 12%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: .25rem 1rem;
 }
+
 #sub a{
-    color: white;
-    text-decoration: none;
-    font-family: 'NHL San Jose';
-    font-size: .9vw;
-    padding: 6px 12px;
-    background-color: transparent;
-    display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(.95rem, 1vw, 1.05rem);
+  padding: .4rem 6rem;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: .4rem;
 }
+
 #sub a:hover{
-    background-color: #333;
-    border-radius: 5px;
+  background-color: #333;
 }
+
 #sub a.subactivo{
-    color: #d04130;
+  color: #d04130;
 }
+
 footer{
-    background-color: #12100D;
-    color: white;
-    text-decoration: none solid;
-    text-align: right;
-    padding: .25vw;
-    font-size: .7vw;
-    margin-top: 12vw;
-
+  background-color: #12100D;
+  color: white;
+  text-align: right;
+  padding: .6rem 1rem;
+  font-size: clamp(.8rem, .8vw, .95rem);
+  margin-top: 15.5rem;
 }
 
+@media (max-width: 600px){
+  #sub{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #sub a{
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .ford {
+    margin-right: 0.08em;
+  }
+
+  .v {
+    margin: 0;
+  }
+
+  .ferrari {
+    margin-left: 0.08em;
+  }
+}

@@ -1,50 +1,47 @@
 .produccion{
-    color: black;
-    font-size: 1vw;
-    margin-top: 2vw;
-    margin-right: 40%;
-    margin-left: 40%;
-    font-family: 'NHL San Jose';
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 8px 8px;
-    background-color: #d04130;
-    text-align: center;
+  color: black;
+  font-size: clamp(1.05rem, 1.2vw, 1.25rem);
+  margin: 1.5rem auto 1rem;
+  font-family: 'Poppins', sans-serif;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: .5rem .75rem;
+  background-color: #d04130;
+  text-align: center;
+  max-width: 520px;
 }
-.produtext{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-    font-size: 1vw;;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 15px 25px;
-    background-color: #64A8C5;
-}
-.prod{
-    height: 8vw;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border: 3px solid black;
-    border-radius: 10px;
-}
+
 #productoras{
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
-.produtext2{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-    text-align: left;
-    font-size: 1vw;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 15px 25px;
-    background-color: #64A8C5;
+
+.prod{
+  width: clamp(160px, 22vw, 260px);
+  height: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.produtext,.produtext2{
+  margin: 0 auto 1rem;
+  max-width: 980px;
+  text-align: left;
+  font-size: clamp(.95rem, 1vw, 1.05rem);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  background-color: #64A8C5;
+}
+
+@media (max-width: 600px){
+.produtext,.produtext2{
+  padding: 1rem;
+  }
 }

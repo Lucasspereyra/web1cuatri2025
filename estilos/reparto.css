@@ -1,29 +1,45 @@
 #cuadros{
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  padding: 2rem 1rem;
+  max-width: 1500px;
+  margin: 0 auto;
 }
+
 .card{
-    width: 20%;
-    border: 3px solid black;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #64A8C5;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #64A8C5;
+  padding: 1rem;
+  transition: transform 200ms;
+  font-family: 'Poppins', sans-serif;
 }
+
 .mta{
-    width: 10.5vw;
-    height: auto;
-    margin-top: 5%;
-    border: 3px solid black;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin-top: .5rem;
+  border: 3px solid black;
+  border-radius: 10px;
 }
-.card:hover {
-    transform: scale(1.03);
+
+.card:hover{
+  transform: scale(1.03);
 }
+
 p{
-    font-size: .9vw;
+  font-size: clamp(.9rem, 1vw, 1.02rem);
+  margin: .75rem 0 0;
 }
+
 h4{
-    font-size: 1vw;
-    margin-top: 8%;
+  font-size: clamp(1rem, 1.1vw, 1.15rem);
+  margin: 0;
+}
+h3{
+  font-size: clamp(.8rem, 1vw, 1rem);
+  margin: 0;
 }
