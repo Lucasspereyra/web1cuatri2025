@@ -31,7 +31,7 @@
     font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
 .vi{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: auto;
     padding: .6rem .9rem;
     color: black;
